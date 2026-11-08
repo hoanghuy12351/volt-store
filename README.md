@@ -13,6 +13,8 @@ python -m http.server 4173
 
 Sau đó truy cập `http://localhost:4173`. Không cần cài đặt thư viện hay chạy bước build.
 
+`index.html` ở thư mục gốc chuyển tới `dist/`, giúp trang hoạt động khi xuất bản GitHub Pages từ thư mục gốc của nhánh `main`.
+
 Để xem trên điện thoại cùng mạng Wi-Fi, chạy lệnh sau trong thư mục dự án:
 
 ```bash
